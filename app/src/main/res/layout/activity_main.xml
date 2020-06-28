@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/in"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:autofillHints=""
+        android:ems="6"
+        android:hint="@string/enter"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toEndOf="@+id/in_voice"
+        app:layout_constraintTop_toBottomOf="@+id/unitrate"
+        app:layout_constraintVertical_bias="0.073"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/unitrate"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="340dp"
+        android:autofillHints=""
+        android:ems="6"
+        android:hint="@string/enter"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toEndOf="@+id/Unit_rate"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/Noofbags"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:autofillHints=""
+        android:ems="6"
+        android:hint="@string/enter"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/unitrate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toEndOf="@+id/No._of_bags"
+        app:layout_constraintTop_toBottomOf="@+id/Noofunits"
+        app:layout_constraintVertical_bias="0.537"
+        tools:targetApi="o" />
+
+
+
+    <EditText
+        android:id="@+id/Typeofunit"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="120dp"
+        android:autofillHints=""
+        android:ems="6"
+        android:hint="@string/enter"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/No._of_units"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/No._of_units"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:targetApi="o" />
+    <EditText
+        android:id="@+id/Noofunits"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="196dp"
+        android:autofillHints=""
+        android:ems="6"
+        android:hint="@string/enter"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/No._of_bags"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/No._of_units"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:targetApi="o" />
+    <Button
+        android:id="@+id/SUBMIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Enter_the_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/enter_the_details"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Type_of_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="128dp"
+        android:text="@string/type_of_unit"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/No._of_units"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/no_of_units"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Type_of_unit" />
+
+    <TextView
+        android:id="@+id/No._of_bags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/no_of_bags"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/No._of_units" />
+
+    <TextView
+        android:id="@+id/Unit_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/unit_rate"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/No._of_bags" />
+
+    <TextView
+        android:id="@+id/in_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invoice__to"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Unit_rate"
+        app:layout_constraintVertical_bias="0.119" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

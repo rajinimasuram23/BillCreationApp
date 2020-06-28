@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Bill</string>
+    <string name="type_of_unit">Type of unit</string>
+    <string name="no_of_bags">No. of bags</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_the_details">Enter the details</string>
+    <string name="no_of_units">No. of units</string>
+    <string name="unit_rate">Unit rate</string>
+    <string name="enter">Enter</string>
+    <string name="mn_textiles">MN TEXTILES</string>
+    <string name="prop_masuram_narsaiah">Prop Masuram Narsaiah</string>
+    <string name="ph_9490114209">Ph : 9490114209</string>
+    <string name="manufacturing_towels_lungies_and_bed_sheets">Manufacturing Towels, Lungies and Bed Sheets</string>
+    <string name="post_kodakandla_dist_jangaon_506222_telangana">Post : Kodakandla, Dist : Jangaon-506222, Telangana.</string>
+    <string name="type">TYPE</string>
+
+    <string name="amount">AMOUNT</string>
+
+    <string name="units">UNITS</string>
+    <string name="bags">BAGS</string>
+    <string name="rate">RATE</string>
+    <string name="t1">-</string>
+    <string name="t2" />
+    <string name="t3" />
+    <string name="t4" />
+    <string name="t5" />
+    <string name="date">Date :____________</string>
+    <string name="invoice__to">Invoice to</string>
+    <string name="invoice_to">Invoice to:</string>
+    <string name="abc">Invoice to:</string>
+    <string name="invoice" />
+    <string name="ship_to">SHIP TO:</string>
+    <string name="hint">hint</string>
+
+
+</resources>
